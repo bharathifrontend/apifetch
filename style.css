@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: url(cartoonimage.png);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  font-size: 5rem;
+  color: black;
+}
+.page-header:hover {
+  color: red; /* Change the color on hover, you can customize this as needed */
+}
+
+#footer {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  color: white;
+}
